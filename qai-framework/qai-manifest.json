@@ -1,0 +1,480 @@
+{
+  "schemaVersion": 1,
+  "engineVersion": "1.7.14",
+  "framework": {
+    "name": "Primary Playwright Framework",
+    "type": "PLAYWRIGHT",
+    "language": "TYPESCRIPT",
+    "knowledgeVersionId": "75595d0c-153c-4988-8ef9-316fe13c255a"
+  },
+  "files": [
+    {
+      "path": "package.json",
+      "fileType": "CONFIG",
+      "contentHash": "1df16a21e6f82249c6bb4ba4bc455888c1ed82425ec59669264ea9688be8e7eb",
+      "origin": "GENERATED"
+    },
+    {
+      "path": "tsconfig.json",
+      "fileType": "CONFIG",
+      "contentHash": "e79a6a91eb220af42df96a926a7c55ed0f373c66023ed705f164a7a5d1eab587",
+      "origin": "GENERATED"
+    },
+    {
+      "path": "playwright.config.ts",
+      "fileType": "CONFIG",
+      "contentHash": "dc32839412787f5bb5e1ba8e5c8b687cef5a2b0eb827501ef3fc68fedec0b036",
+      "origin": "GENERATED"
+    },
+    {
+      "path": ".gitignore",
+      "fileType": "CONFIG",
+      "contentHash": "9136ed2cc9d1b2efb0042c9352309d19e0d36846ed067789d60ddce9e698bccb",
+      "origin": "GENERATED"
+    },
+    {
+      "path": ".env.example",
+      "fileType": "CONFIG",
+      "contentHash": "b3115e12d6da89f19eca29f9acd18ad764222a9811d8856d7d26df978a3291c6",
+      "origin": "GENERATED"
+    },
+    {
+      "path": "utils/runtime.ts",
+      "fileType": "UTILITY",
+      "contentHash": "9480bff03fabf5d85e1dd4ebb1df54ad02677cbb0fe73401156a3496bd7233a8",
+      "origin": "GENERATED"
+    },
+    {
+      "path": "data/test-data.ts",
+      "fileType": "DATA",
+      "contentHash": "3160f3d159b5b09d775327ae823b6ddf5e423ad881c4fde52b0d6e754ebdf80b",
+      "origin": "GENERATED"
+    },
+    {
+      "path": "README.md",
+      "fileType": "DOCUMENTATION",
+      "contentHash": "86bb30f7cc46545cf364cea9e77c62f7ca95a749ba2c8f47d89b3b4ab47d2292",
+      "origin": "GENERATED"
+    },
+    {
+      "path": "reports/.gitkeep",
+      "fileType": "OTHER",
+      "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "GENERATED"
+    },
+    {
+      "path": "pages/CartPage.ts",
+      "fileType": "PAGE_OBJECT",
+      "contentHash": "928d0f9c5a748832bdbd0551e556a8f940d13d0110026662d4c6978abaf79681",
+      "origin": "SYSTEM_UPDATED"
+    },
+    {
+      "path": "tests/CartPage.spec.ts",
+      "fileType": "TEST",
+      "contentHash": "4b46ddd537ef9ce5c3396a6b12062c4ad599554c72ed6b2e108d9e73747d3dc3",
+      "origin": "IMPORTED_QAI_SCRIPT"
+    },
+    {
+      "path": "pages/InventoryPage.ts",
+      "fileType": "PAGE_OBJECT",
+      "contentHash": "74addde14c8ccfd2877bc5dbd5fa3bf27928b646dcf038451c12b8c5b85c3143",
+      "origin": "IMPORTED_QAI_SCRIPT"
+    },
+    {
+      "path": "tests/InventoryPage.spec.ts",
+      "fileType": "TEST",
+      "contentHash": "90fbc6d949b507cf6d6f405991722460e0a0fa651dcca88bfb608128196da8d6",
+      "origin": "IMPORTED_QAI_SCRIPT"
+    },
+    {
+      "path": "pages/AuthenticationPage.ts",
+      "fileType": "PAGE_OBJECT",
+      "contentHash": "4be84106ff95a53a0fa2ad46bb1431764f8d45a08e3906b549a391884e0d04a3",
+      "origin": "IMPORTED_QAI_SCRIPT"
+    },
+    {
+      "path": "tests/AuthenticationPage.spec.ts",
+      "fileType": "TEST",
+      "contentHash": "bc2a60bf46648208edc8889947d31115d2b085d06af274e7f00daba39566eb41",
+      "origin": "IMPORTED_QAI_SCRIPT"
+    },
+    {
+      "path": "pages/LoginPage.ts",
+      "fileType": "PAGE_OBJECT",
+      "contentHash": "f5916267a4d809b1635a05674277365bf33614ab453fe20177482704521a0c78",
+      "origin": "GENERATED"
+    },
+    {
+      "path": "fixtures/application.fixture.ts",
+      "fileType": "FIXTURE",
+      "contentHash": "46398500c549a4b9eec3ed8bdfdd7c76b0f2b12d57b4a9e8a86e6e654aa06092",
+      "origin": "GENERATED"
+    },
+    {
+      "path": "qai-manifest.json",
+      "fileType": "MANIFEST",
+      "contentHash": "SELF",
+      "origin": "GENERATED"
+    }
+  ],
+  "pageObjects": [
+    {
+      "pageObjectId": "po-ec4fb17ef3133aa8",
+      "name": "CartPage",
+      "path": "pages/CartPage.ts",
+      "semanticKey": "page:cart",
+      "relatedPageIds": [],
+      "relatedStateIds": [
+        "260cdf58e0f9a5a41637e53482592801",
+        "0a1987329d6f14d06398535672dd1e4d",
+        "1efffd63821aa2645734d5ca9d4239ef"
+      ],
+      "relatedModuleIds": [
+        "authentication",
+        "cart",
+        "inventory"
+      ],
+      "relatedWorkflowIds": [
+        "260cdf58e0f9a5a41637e53482592801-078483d83184b321ce8d9ac4fcd8d81b-login-button-from-authentication-to-cart",
+        "0a1987329d6f14d06398535672dd1e4d-86eb585ce380d8379479b77517b112c2-shopping-cart-to-cart"
+      ]
+    },
+    {
+      "pageObjectId": "po-a9d7e2303f7ba031",
+      "name": "InventoryPage",
+      "path": "pages/InventoryPage.ts",
+      "semanticKey": "page:inventory",
+      "relatedPageIds": [],
+      "relatedStateIds": [
+        "260cdf58e0f9a5a41637e53482592801",
+        "0a1987329d6f14d06398535672dd1e4d"
+      ],
+      "relatedModuleIds": [
+        "authentication",
+        "inventory"
+      ],
+      "relatedWorkflowIds": [
+        "260cdf58e0f9a5a41637e53482592801-078483d83184b321ce8d9ac4fcd8d81b-login-button-from-authentication-to-cart"
+      ]
+    },
+    {
+      "pageObjectId": "po-11bef0f47513c81a",
+      "name": "AuthenticationPage",
+      "path": "pages/AuthenticationPage.ts",
+      "semanticKey": "page:authentication",
+      "relatedPageIds": [],
+      "relatedStateIds": [
+        "0a1987329d6f14d06398535672dd1e4d",
+        "1efffd63821aa2645734d5ca9d4239ef"
+      ],
+      "relatedModuleIds": [],
+      "relatedWorkflowIds": []
+    },
+    {
+      "pageObjectId": "po-3a29c34cfa016ace",
+      "name": "LoginPage",
+      "path": "pages/LoginPage.ts",
+      "semanticKey": "page:login",
+      "relatedPageIds": [],
+      "relatedStateIds": [
+        "260cdf58e0f9a5a41637e53482592801",
+        "0a1987329d6f14d06398535672dd1e4d",
+        "1efffd63821aa2645734d5ca9d4239ef"
+      ],
+      "relatedModuleIds": [],
+      "relatedWorkflowIds": [
+        "260cdf58e0f9a5a41637e53482592801-078483d83184b321ce8d9ac4fcd8d81b-login-button-from-authentication-to-cart",
+        "0a1987329d6f14d06398535672dd1e4d-86eb585ce380d8379479b77517b112c2-shopping-cart-to-cart"
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "testCaseId": "6a9969d422571b5797997346",
+      "publicId": "TC-K-93C4E5A9",
+      "title": "Login button, then Shopping cart from Authentication to Cart",
+      "suiteTypes": [
+        "SMOKE",
+        "SANITY",
+        "FUNCTIONAL",
+        "REGRESSION",
+        "E2E"
+      ],
+      "testFilePath": "tests/CartPage.spec.ts",
+      "testBlockId": "test-4cc736535e1468dd",
+      "pageObjectId": "po-ec4fb17ef3133aa8",
+      "pageMethodName": "verifyLoginButtonShoppingCart",
+      "workflowIds": [
+        "260cdf58e0f9a5a41637e53482592801-078483d83184b321ce8d9ac4fcd8d81b-login-button-from-authentication-to-cart"
+      ],
+      "stateIds": [
+        "260cdf58e0f9a5a41637e53482592801",
+        "0a1987329d6f14d06398535672dd1e4d",
+        "1efffd63821aa2645734d5ca9d4239ef"
+      ],
+      "transitionIds": [
+        "078483d83184b321ce8d9ac4fcd8d81b",
+        "86eb585ce380d8379479b77517b112c2"
+      ],
+      "ruleIds": [
+        "8158398b0c4f9108d24a83c2dcb4d299",
+        "e45ebdbe9327561749c8c7a85a7cf195"
+      ],
+      "validationIds": [],
+      "evidenceIds": [
+        "0de6f5564adb5c1cbcfc599a",
+        "eb7f45807e02d69e7093d73a"
+      ],
+      "existingScriptReused": true,
+      "sourceTestCaseVersionId": "6a996b9522571b579799735f",
+      "sourceScriptHash": "321635d459be166d110d3e67a82fb1039e3b9ac5cb60dd8c230e66dd119244d9"
+    },
+    {
+      "testCaseId": "6a9969d422571b5797997347",
+      "publicId": "TC-K-69240224",
+      "title": "Shopping cart from Inventory to Cart",
+      "suiteTypes": [
+        "SMOKE",
+        "SANITY",
+        "FUNCTIONAL",
+        "REGRESSION"
+      ],
+      "testFilePath": "tests/CartPage.spec.ts",
+      "testBlockId": "test-ed6e316702128060",
+      "pageObjectId": "po-ec4fb17ef3133aa8",
+      "pageMethodName": "verifyShoppingCart",
+      "workflowIds": [
+        "0a1987329d6f14d06398535672dd1e4d-86eb585ce380d8379479b77517b112c2-shopping-cart-to-cart",
+        "260cdf58e0f9a5a41637e53482592801-078483d83184b321ce8d9ac4fcd8d81b-login-button-from-authentication-to-cart"
+      ],
+      "stateIds": [
+        "0a1987329d6f14d06398535672dd1e4d",
+        "1efffd63821aa2645734d5ca9d4239ef"
+      ],
+      "transitionIds": [
+        "86eb585ce380d8379479b77517b112c2"
+      ],
+      "ruleIds": [
+        "8158398b0c4f9108d24a83c2dcb4d299",
+        "e45ebdbe9327561749c8c7a85a7cf195"
+      ],
+      "validationIds": [],
+      "evidenceIds": [
+        "eb7f45807e02d69e7093d73a",
+        "0de6f5564adb5c1cbcfc599a"
+      ],
+      "existingScriptReused": true,
+      "sourceTestCaseVersionId": "6a996b4322571b579799735c",
+      "sourceScriptHash": "3248912f160c0a206091c2cc3ba0f45db4dbe03179d812c871953cf2cb1ecb2f"
+    },
+    {
+      "testCaseId": "6a9969d422571b5797997348",
+      "publicId": "TC-K-CBAD69F3",
+      "title": "Login button from Authentication to Inventory",
+      "suiteTypes": [
+        "SMOKE",
+        "SANITY",
+        "FUNCTIONAL",
+        "REGRESSION"
+      ],
+      "testFilePath": "tests/InventoryPage.spec.ts",
+      "testBlockId": "test-493db6e0f0feae80",
+      "pageObjectId": "po-a9d7e2303f7ba031",
+      "pageMethodName": "verifyLoginButton",
+      "workflowIds": [
+        "260cdf58e0f9a5a41637e53482592801-078483d83184b321ce8d9ac4fcd8d81b-login-button-from-authentication-to-cart"
+      ],
+      "stateIds": [
+        "260cdf58e0f9a5a41637e53482592801",
+        "0a1987329d6f14d06398535672dd1e4d"
+      ],
+      "transitionIds": [
+        "078483d83184b321ce8d9ac4fcd8d81b"
+      ],
+      "ruleIds": [],
+      "validationIds": [],
+      "evidenceIds": [
+        "0de6f5564adb5c1cbcfc599a",
+        "eb7f45807e02d69e7093d73a"
+      ],
+      "existingScriptReused": true,
+      "sourceTestCaseVersionId": "6a996aef22571b5797997359",
+      "sourceScriptHash": "075e7418db1a7970a26ea31a049067a326dc5f597c8c79663a0d77eb9d88a6b1"
+    },
+    {
+      "testCaseId": "6a9969d922571b5797997349",
+      "publicId": "TC-K-AE0A8BCB",
+      "title": "Page access on Inventory (/inventory.html) — This state requires an authenticated session.",
+      "suiteTypes": [
+        "REGRESSION"
+      ],
+      "testFilePath": "tests/AuthenticationPage.spec.ts",
+      "testBlockId": "test-59bd2f7fda97c203",
+      "pageObjectId": "po-11bef0f47513c81a",
+      "pageMethodName": "verifyInventoryRequiresAuthentication",
+      "workflowIds": [],
+      "stateIds": [
+        "0a1987329d6f14d06398535672dd1e4d"
+      ],
+      "transitionIds": [],
+      "ruleIds": [
+        "8158398b0c4f9108d24a83c2dcb4d299"
+      ],
+      "validationIds": [],
+      "evidenceIds": [
+        "a33d10d1a8a92969de30f639"
+      ],
+      "existingScriptReused": true,
+      "sourceTestCaseVersionId": "6a996ac722571b5797997358",
+      "sourceScriptHash": "912871b37c81e6fb34f77f063f4b5756dbd42e1b5824916bff47b58f0970e542"
+    },
+    {
+      "testCaseId": "6a9969d922571b579799734a",
+      "publicId": "TC-K-70677854",
+      "title": "Page access on Cart (/cart.html) — This state requires an authenticated session.",
+      "suiteTypes": [
+        "REGRESSION"
+      ],
+      "testFilePath": "tests/AuthenticationPage.spec.ts",
+      "testBlockId": "test-74c7ecd570a43f5f",
+      "pageObjectId": "po-11bef0f47513c81a",
+      "pageMethodName": "verifyCartRequiresAuthentication",
+      "workflowIds": [],
+      "stateIds": [
+        "1efffd63821aa2645734d5ca9d4239ef"
+      ],
+      "transitionIds": [],
+      "ruleIds": [
+        "e45ebdbe9327561749c8c7a85a7cf195"
+      ],
+      "validationIds": [],
+      "evidenceIds": [
+        "a33d10d1a8a92969de30f639"
+      ],
+      "existingScriptReused": true,
+      "sourceTestCaseVersionId": "6a996c4b22571b5797997366",
+      "sourceScriptHash": "cc006e85cda03299e1549d9f75a49010a55480dff5e61d4c0c8513aa4762bc0c"
+    }
+  ],
+  "selectors": [
+    {
+      "selectorId": "sel-2a6e9893ba1b2519",
+      "pageObjectId": "po-ec4fb17ef3133aa8",
+      "testCaseId": "6a9969d422571b5797997346",
+      "expression": "this.page.locator(\"input[type=\\\"text\\\"]\")",
+      "provenance": "EXISTING_SCRIPT",
+      "confidence": 85
+    },
+    {
+      "selectorId": "sel-97927dcf85bba18a",
+      "pageObjectId": "po-3a29c34cfa016ace",
+      "testCaseId": "6a9969d422571b5797997346",
+      "expression": "this.page.locator(\"input[type=\\\"password\\\"]\")",
+      "provenance": "EXISTING_SCRIPT",
+      "confidence": 85
+    },
+    {
+      "selectorId": "sel-8c919327962b0d4f",
+      "pageObjectId": "po-ec4fb17ef3133aa8",
+      "testCaseId": "6a9969d422571b5797997346",
+      "expression": "this.page.locator(\"input[type=\\\"submit\\\"]\")",
+      "provenance": "EXISTING_SCRIPT",
+      "confidence": 85
+    },
+    {
+      "selectorId": "sel-1154f96ef72c2b83",
+      "pageObjectId": "po-ec4fb17ef3133aa8",
+      "testCaseId": "6a9969d422571b5797997346",
+      "expression": "this.page.locator(\"[data-test=\\\"shopping-cart-link\\\"]\")",
+      "provenance": "EXISTING_SCRIPT",
+      "confidence": 85
+    },
+    {
+      "selectorId": "sel-c465feb1a023af81",
+      "pageObjectId": "po-ec4fb17ef3133aa8",
+      "testCaseId": "6a9969d422571b5797997347",
+      "expression": "this.page.locator(\"input[type=\\\"text\\\"]\")",
+      "provenance": "EXISTING_SCRIPT",
+      "confidence": 85
+    },
+    {
+      "selectorId": "sel-ae2f3868d27cfd5e",
+      "pageObjectId": "po-3a29c34cfa016ace",
+      "testCaseId": "6a9969d422571b5797997347",
+      "expression": "this.page.locator(\"input[type=\\\"password\\\"]\")",
+      "provenance": "EXISTING_SCRIPT",
+      "confidence": 85
+    },
+    {
+      "selectorId": "sel-935675eb25d49549",
+      "pageObjectId": "po-ec4fb17ef3133aa8",
+      "testCaseId": "6a9969d422571b5797997347",
+      "expression": "this.page.locator(\"input[type=\\\"submit\\\"]\")",
+      "provenance": "EXISTING_SCRIPT",
+      "confidence": 85
+    },
+    {
+      "selectorId": "sel-c9c821c125ba5ad3",
+      "pageObjectId": "po-ec4fb17ef3133aa8",
+      "testCaseId": "6a9969d422571b5797997347",
+      "expression": "this.page.locator(\"[data-test=\\\"shopping-cart-link\\\"]\")",
+      "provenance": "EXISTING_SCRIPT",
+      "confidence": 85
+    },
+    {
+      "selectorId": "sel-c0fd61e11530a7aa",
+      "pageObjectId": "po-a9d7e2303f7ba031",
+      "testCaseId": "6a9969d422571b5797997348",
+      "expression": "this.page.locator(\"input[type=\\\"text\\\"]\")",
+      "provenance": "EXISTING_SCRIPT",
+      "confidence": 85
+    },
+    {
+      "selectorId": "sel-5ea8808edfd1bb18",
+      "pageObjectId": "po-3a29c34cfa016ace",
+      "testCaseId": "6a9969d422571b5797997348",
+      "expression": "this.page.locator(\"input[type=\\\"password\\\"]\")",
+      "provenance": "EXISTING_SCRIPT",
+      "confidence": 85
+    },
+    {
+      "selectorId": "sel-4b08794a159f49c8",
+      "pageObjectId": "po-a9d7e2303f7ba031",
+      "testCaseId": "6a9969d422571b5797997348",
+      "expression": "this.page.locator(\"input[type=\\\"submit\\\"]\")",
+      "provenance": "EXISTING_SCRIPT",
+      "confidence": 85
+    },
+    {
+      "selectorId": "sel-6278cac1e0d81c46",
+      "pageObjectId": "po-3a29c34cfa016ace",
+      "testCaseId": "6a9969d922571b5797997349",
+      "expression": "this.page.locator(\"input[type=\\\"password\\\"]\")",
+      "provenance": "EXISTING_SCRIPT",
+      "confidence": 85
+    },
+    {
+      "selectorId": "sel-64dc2f5d6a979d49",
+      "pageObjectId": "po-3a29c34cfa016ace",
+      "testCaseId": "6a9969d922571b579799734a",
+      "expression": "this.page.locator(\"input[type=\\\"password\\\"]\")",
+      "provenance": "EXISTING_SCRIPT",
+      "confidence": 85
+    }
+  ],
+  "fixtures": [
+    {
+      "fixtureId": "fixture-6b9b6c2301c486f9",
+      "path": "fixtures/application.fixture.ts",
+      "purpose": "Shared typed Page Object lifecycle for multi-responsibility suites"
+    }
+  ],
+  "utilities": [
+    {
+      "utilityId": "utility-runtime-environment",
+      "path": "utils/runtime.ts",
+      "purpose": "Validated runtime environment access without packaged secrets"
+    }
+  ],
+  "changeSets": []
+}
